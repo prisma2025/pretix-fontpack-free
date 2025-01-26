@@ -7,6 +7,18 @@ from pretix.plugins.ticketoutputpdf.signals import register_fonts
 def fontpack_free(sender, **kwargs):
     basepath = "pretix_fontpackfree"
     return {
+        "Reem Kufi": {
+            "regular": {
+                "truetype": basepath + "/ReemKufi-Regular.ttf",
+                "woff": basepath + "/ReemKufi-Regular.woff",
+                "woff2": basepath + "/ReemKufi-Regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/ReemKufi-Bold.ttf",
+                "woff": basepath + "/ReemKufi-Bold.woff",
+                "woff2": basepath + "/ReemKufi-Bold.woff2",
+            },
+        },
         "Noto Sans": {
             "regular": {
                 "truetype": basepath + "/NotoSans-Regular-webfont.ttf",

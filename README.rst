@@ -6,6 +6,7 @@ This is a plugin for `pretix`_ that adds free fonts to the ticket shop, PDF edit
 Font list
 ---------
 
+* Reem Kufi, Khaled Hosny, Santiago Orozco, SIL Open Font License
 * Roboto, Christian Robertson, Apache License 2.0
 * Lato, Lukasz Dziedzic, SIL Open Font License
 * Montserrat, The Montserrat Project Authors, SIL Open Font SLicense
